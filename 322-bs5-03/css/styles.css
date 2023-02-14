@@ -84,13 +84,6 @@
     background: beige;
   }
 }
-
-/*------ Carousel ------*/
-
-.slideshow {
-  margin-bottom: 50px;
-}
-
 /*------ Full Width Image ------*/
 
 #full-img-bkgd {
@@ -173,7 +166,9 @@
 /*------ Home Page ------*/
 
 #page h1 {
-  border: 3px solid black;
+  border: 2px solid black;
   text-align: center;
-  padding: 30px;
+  padding: 9px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
