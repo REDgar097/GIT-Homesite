@@ -1,6 +1,6 @@
 /*------ My Styles ------*/
 
-.purple-container {
+/* .purple-container {
 	border: solid 20px purple;
 }
 
@@ -10,12 +10,9 @@
 
 .blue-column {
 	border: solid 10px blue;
-}
+} */
 
 /*------ Header ------*/
-.active-nav-link {
-	border-bottom: #000000 2px solid;
-}
 
 #header-bkgd {
 	background-color: lightgrey;
@@ -53,7 +50,7 @@
 }
 
 #site-main-nav-container .active-nav-link {
-	border-bottom: #000000 1px solid;
+	color: #00b29e;
 }
 
 @media only all and (max-width: 768px) {
@@ -173,4 +170,29 @@
 	padding: 9px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+/*------ Page 02 ------*/
+
+#pg2header {
+	background-color: lightgrey;
+}
+
+#pg2header h1 {
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding: 20px;
+}
+
+#pg2header h4 {
+	padding: 15px;
+	text-align: center;
+}
+
+.boldtextpg2 {
+	background-color: darkslategray;
+	color: white;
+	margin: 50px;
+	padding: 20px;
+	width: ;
 }
