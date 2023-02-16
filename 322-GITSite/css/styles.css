@@ -15,7 +15,6 @@
 /*------ Header ------*/
 
 #header-bkgd {
-	background-color: lightgrey;
 	border-bottom: #000000 solid 3px;
 }
 
@@ -176,23 +175,45 @@
 
 #pg2header {
 	background-color: lightgrey;
+	text-align: center;
 }
 
 #pg2header h1 {
 	border-bottom: 1px solid black;
-	text-align: center;
 	padding: 20px;
 }
 
 #pg2header h4 {
 	padding: 15px;
-	text-align: center;
+}
+
+#pg2header img {
+	width: 100%;
+	padding:10px;
 }
 
 .boldtextpg2 {
 	background-color: darkslategray;
 	color: white;
-	margin: 50px;
 	padding: 20px;
-	width: ;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#pg2content h4 {
+	border-bottom: #000000 1px solid;
+	padding: 10px;
+	text-align: center;
+}
+#pg2content article {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#pg2content article p {
+	background-color: lightgray;
+	padding: 10px;
 }
