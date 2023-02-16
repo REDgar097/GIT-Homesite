@@ -1,166 +1,161 @@
 /*------ My Styles ------*/
 
-/* ------ Visible Borders ------
 .purple-container {
-  border: solid 20px purple;
+	border: solid 20px purple;
 }
 
 .grey-row {
-  border: solid 15px grey;
+	border: solid 15px grey;
 }
 
 .blue-column {
-  border: solid 10px blue;
-} */
+	border: solid 10px blue;
+}
 
 /*------ Header ------*/
 #header-bkgd {
-  background-color: lightgrey;
-  border-bottom: #000000 solid 3px;
+	background-color: lightgrey;
+	border-bottom: #000000 solid 3px;
 }
 
 #site-main-nav-container h3 {
-  float: right;
-  background: tan;
+	float: right;
+	background: tan;
 }
 
 #site-main-nav-container nav {
-  clear: both;
-  background: coral;
+	clear: both;
+	background: coral;
 }
 
 #site-main-nav-container ul {
-  float: right;
+	float: right;
 }
 
 #site-main-nav-container li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 20px;
-  margin-left: 20px;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 20px;
 }
 
 #site-main-nav-container a {
-  text-decoration: none;
-  color: #ff6823;
+	text-decoration: none;
+	color: #ff6823;
 }
 
 #site-main-nav-container a:hover {
-  color: #00b29e;
+	color: #00b29e;
 }
 
 #site-main-nav-container .active-nav-link {
-  border-bottom: #000000 1px solid;
+	border-bottom: #000000 1px solid;
 }
 
 @media only all and (max-width: 768px) {
-  #site-header {
-    padding-top: 15px;
-  }
+	#site-header {
+		padding-top: 15px;
+	}
 
-  #site-header img {
-    max-width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	#site-header img {
+		max-width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  #site-main-nav-container h3 {
-    float: none;
-    text-align: center;
-    margin-top: 15px;
-  }
+	#site-main-nav-container h3 {
+		float: none;
+		text-align: center;
+		margin-top: 15px;
+	}
 
-  #site-main-nav-container ul {
-    float: none;
-    padding-left: 0;
-    font-size: 0;
-    background: grey;
-  }
+	#site-main-nav-container ul {
+		float: none;
+		padding-left: 0;
+		font-size: 0;
+		background: grey;
+	}
 
-  #site-main-nav-container li {
-    margin: 0;
-    text-align: center;
-    width: 50%;
-    background: beige;
-  }
+	#site-main-nav-container li {
+		margin: 0;
+		text-align: center;
+		width: 50%;
+		background: beige;
+	}
 }
 /*------ Full Width Image ------*/
 
 #full-img-bkgd {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(255, 0, 0, 0),
-      rgba(255, 0, 0, 0.5)
-    ),
-    url(/322-bs5-03/images/full-width-image.jpg);
-  background-size: cover;
-  background-position: center center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+	background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.5)),
+		url(/322-bs5-03/images/full-width-image.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #full-img-text {
-  text-align: center;
-  padding: 100px 0px 100px 0px;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
 }
 
 #full-img-text h3 {
-  font-weight: bold;
-  color: yellow;
+	font-weight: bold;
+	color: yellow;
 }
 
 #full-img-text a {
-  background-color: #000000;
-  padding: 7px 15px 7px 15px;
-  color: white;
-  text-decoration: none;
+	background-color: #000000;
+	padding: 7px 15px 7px 15px;
+	color: white;
+	text-decoration: none;
 }
 
 #full-img-text a:hover {
-  background-color: grey;
-  color: #000000;
+	background-color: grey;
+	color: #000000;
 }
 
 /*------ Footer ------*/
 #footer-bkgd {
-  background-color: lightgrey;
-  border-top: #000000 solid 1px;
-  padding: 30px;
+	background-color: lightgrey;
+	border-top: #000000 solid 1px;
+	padding: 30px;
 }
 
 .footer-text {
-  text-align: center;
+	text-align: center;
 }
 
 #footer-credits {
-  margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-top: solid 1px #000000;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: solid 1px #000000;
 }
 
 #footer-credits-left {
-  float: left;
-  background: tan;
+	float: left;
+	background: tan;
 }
 
 #footer-credits-right {
-  float: right;
-  background: coral;
-  text-align: right;
+	float: right;
+	background: coral;
+	text-align: right;
 }
 
 @media only all and (max-width: 768px) {
-  #footer-credits-right {
-    float: none;
-    text-align: center;
-  }
+	#footer-credits-right {
+		float: none;
+		text-align: center;
+	}
 
-  #footer-credits-left {
-    float: none;
-    text-align: center;
-  }
+	#footer-credits-left {
+		float: none;
+		text-align: center;
+	}
 }
 
 @media only all and (max-width: 768px) {
@@ -169,9 +164,9 @@
 /*------ Home Page ------*/
 
 #page h1 {
-  border: 2px solid black;
-  text-align: center;
-  padding: 9px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 9px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
