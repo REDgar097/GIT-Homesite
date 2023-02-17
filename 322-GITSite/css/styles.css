@@ -10,7 +10,7 @@
 
 .blue-column {
 	border: solid 10px blue;
-} */
+} */ */
 
 /*------ Header ------*/
 
@@ -216,4 +216,57 @@
 #pg2content article p {
 	background-color: lightgray;
 	padding: 10px;
+}
+
+/*------ Page 03 ------*/
+
+.pg3video {
+	width: 100%;
+	margin-top:20px;
+}
+
+#pg3content th {
+	border-bottom: lightgrey solid 2px;
+}
+
+#pg3content td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+}
+
+#pg3content table {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#pg3content img {
+	object-fit: cover;
+	width: 100%;
+}
+.pg-3img {
+	position: relative;
+	margin-bottom: 20px;
+}
+.img-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
+
+#pg3content .pg-3img:hover .img-hover {
+	display: inline;
+}
+
+#pg3content .pg-3img:hover .centered {
+	color: antiquewhite;
 }
