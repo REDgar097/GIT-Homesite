@@ -1,6 +1,6 @@
 /*------ My Styles ------*/
-
-/* .purple-container {
+/*
+.purple-container {
 	border: solid 20px purple;
 }
 
@@ -14,7 +14,7 @@
 
 /*------ Header ------*/
 
-#header-bkgd {
+.hdrbdr {
 	border-bottom: #000000 solid 3px;
 }
 
