@@ -10,11 +10,11 @@
 
 .blue-column {
 	border: solid 10px blue;
-} */ */
+} */
 
 /*------ Header ------*/
 
-.hdrbdr {
+#header-bkgd {
 	border-bottom: #000000 solid 3px;
 }
 
@@ -222,7 +222,8 @@
 
 .pg3video {
 	width: 100%;
-	margin-top:20px;
+	margin-top:30px;
+	margin-bottom: 30px;
 }
 
 #pg3content th {
@@ -244,6 +245,8 @@
 	object-fit: cover;
 	width: 100%;
 }
+
+
 .pg-3img {
 	position: relative;
 	margin-bottom: 20px;
